@@ -26,7 +26,8 @@
   
 ## پروژه‌های من / My Projects
 
-(در حال تکمیل / Coming Soon)
+Ai Sentiment WebApp:** [github.com/miladchak/Ai-Sentiment-WebApp](https://x.com/miladchak](https://github.com/miladchak/Ai-Sentiment-WebApp)
+
 
 ## راه‌های ارتباطی / Contact Me
 

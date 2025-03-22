@@ -162,11 +162,11 @@
 <body class="dark">
     <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
     <div class="container">
-        <h1>سلام! من میلاد هستم 👋 / Hello! I'm Milad 👋</h1>
+        <h1>سلام! 👋 / Hello! 👋</h1>
 
         <h2>درباره من / About Me</h2>
         <ul>
-            <li>💼 <strong>Profession:</strong> AI Engineer, Blockchain & Web3 Developer, Machine Learning Researcher</li>
+            <li>💼 <strong>Profession:</strong> AI Dev & Researcher, Blockchain & Web3 Developer</li>
             <li>🌱 <strong>Currently Learning:</strong> Data Science, Neural Network Architecture for AI Robots</li>
         </ul>
 
@@ -177,6 +177,10 @@
                 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
                 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
                 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+                <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=fff" alt="Bash" >
+                <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=fff" alt="CSS" >
+                <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" >
+                <img src="https://img.shields.io/badge/JSON-000?style=for-the-badge&logo=json&logoColor=fff" alt="Jason" >
             </div>
             <div class="skill-item">
                 <strong>ابزارها و فناوری‌ها:</strong><br>
@@ -194,11 +198,11 @@
 
         <h2>راه‌های ارتباطی / Contact Me</h2>
         <div class="contact">
-            <p>📧 <strong>ایمیل:</strong> <a href="mailto:miladchak01@gmail.com">miladchak01@gmail.com</a></p>
-            <p>🐦 <strong>توییتر:</strong> <a href="https://x.com/miladchak" target="_blank">x.com/miladchak</a></p>
+            <p>📧 <strong>Mail / ایمیل:</strong> <a href="mailto:miladchak01@gmail.com">miladchak01@gmail.com</a></p>
+            <p>🐦 <strong>X / ایکس:</strong> <a href="https://x.com/miladchak" target="_blank">x.com/miladchak</a></p>
         </div>
 
-        <!-- بخش بازی -->
+        <!-- Game Section -->
         <div class="game-section">
             <h2>بازی دوز / Tic-Tac-Toe</h2>
             <div class="game-board" id="board"></div>
@@ -208,7 +212,7 @@
     </div>
 
     <script>
-        // سوئیچ تم
+        // Switch Theme
         function toggleTheme() {
             const body = document.body;
             body.classList.toggle('dark');
@@ -218,14 +222,14 @@
         }
         document.body.classList.add('dark');
 
-        // کد بازی دوز
+        // Tic-tac-toe code
         const board = document.getElementById('board');
         const status = document.getElementById('status');
         let currentPlayer = 'X';
         let gameBoard = ['', '', '', '', '', '', '', '', ''];
         let gameActive = true;
 
-        // ساخت تخته بازی
+        // Making game board
         for (let i = 0; i < 9; i++) {
             const cell = document.createElement('div');
             cell.classList.add('cell');
@@ -248,16 +252,16 @@
                     gameActive = false;
                 } else {
                     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
-                    status.textContent = `نوبت: ${currentPlayer}`;
+                    status.textContent = `turn نوبت: ${currentPlayer}`;
                 }
             }
         }
 
         function checkWin() {
             const winConditions = [
-                [0, 1, 2], [3, 4, 5], [6, 7, 8], // ردیف‌ها
-                [0, 3, 6], [1, 4, 7], [2, 5, 8], // ستون‌ها
-                [0, 4, 8], [2, 4, 6] // قطری‌ها
+                [0, 1, 2], [3, 4, 5], [6, 7, 8], // Rows
+                [0, 3, 6], [1, 4, 7], [2, 5, 8], // Columns
+                [0, 4, 8], [2, 4, 6] // Diagonals
             ];
             return winConditions.some(condition => {
                 return condition.every(index => gameBoard[index] === currentPlayer);
@@ -268,7 +272,7 @@
             gameBoard = ['', '', '', '', '', '', '', '', ''];
             gameActive = true;
             currentPlayer = 'X';
-            status.textContent = 'نوبت: X';
+            status.textContent = 'Turn نوبت: X';
             document.querySelectorAll('.cell').forEach(cell => {
                 cell.textContent = '';
                 cell.classList.remove('x', 'o');

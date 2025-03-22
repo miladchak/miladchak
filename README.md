@@ -26,7 +26,7 @@
   
 ## پروژه‌های من / My Projects
 
-Ai Sentiment WebApp:** [github.com/miladchak/Ai-Sentiment-WebApp](https://github.com/miladchak/Ai-Sentiment-WebApp)
+Ai Sentiment WebApp: [github.com/miladchak/Ai-Sentiment-WebApp](https://github.com/miladchak/Ai-Sentiment-WebApp)
 
 
 ## راه‌های ارتباطی / Contact Me

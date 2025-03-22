@@ -31,5 +31,5 @@
 ## راه‌های ارتباطی / Contact Me
 
 - **ایمیل / Email:** [miladchak01@gmail.com](mailto:miladchak01@gmail.com)
-- **توییتر / Twitter:** [x.com/miladchak](https://x.com/miladchak)
+- **ایکس / X:** [x.com/miladchak](https://x.com/miladchak)
 

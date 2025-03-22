@@ -2,7 +2,7 @@
 
 ## درباره من / About Me
 
-- 💼 **Profession:** AI Engineer, Blockchain & Web3 Developer, Machine Learning Researcher
+- 💼 **Profession:** AI Dev & Researcher, Blockchain & Web3 Developer
 - 🌱 **Currently Learning:** Data Science, Neural Network Architecture for AI Robots
 
 ## مهارت‌ها / Skills
@@ -11,6 +11,10 @@
   - ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
   - ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+  - [![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=fff)](#)
+  - [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
+  - [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+  - [![JSON](https://img.shields.io/badge/JSON-000?logo=json&logoColor=fff)](#)
 
 - **ابزارها و فناوری‌ها / Tools & Technologies:**
   - ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
